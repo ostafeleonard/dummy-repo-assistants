@@ -37,6 +37,9 @@ class ConvertorPDF2PNG():
             return '', ''
         pdf_file_path = self.remove_special_characters_from_filename(pdf_file_path)
         logger.log_info(f'{__name__} - convert_pdf_file - Processing file: {pdf_file_path}')
+        logger.log_info(f'{__name__} - convert_pdf_file - Processing file: {pdf_file_path}')
+        logger.log_info(f'{__name__} - convert_pdf_file - Processing file: {pdf_file_path}')
+        logger.log_info(f'{__name__} - convert_pdf_file - Processing file: {pdf_file_path}')
 
         self.create_directory(output_path)
         output_pdf_images_names = self.get_output_pdf_image_names(pdf_file_path)
