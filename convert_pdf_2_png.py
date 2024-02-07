@@ -18,9 +18,7 @@ class ConvertorPDF2PNG():
         self.pdf_files = config.settings['convertor_pdf_2_png']['pdf_files']
         self.png_files = config.settings['convertor_pdf_2_png']['output_png_files_path']
 
-        self.dpi = config.settings['convertor_pdf_2_png']['dpi']
-        self.thread_count = config.settings['convertor_pdf_2_png']['thread_count']
-        self.last_page = config.settings['convertor_pdf_2_png']['limit_images']
+
 
         self.output_file = ''
         self.output_files = []
